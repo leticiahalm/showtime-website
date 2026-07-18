@@ -14,7 +14,7 @@ claim = "I need to find out what happened to her..."
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
+card_image = "card.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Leticia Halm", "Sophia Kawgan-Kagan", "Deborah Carroll", "Mia Flücken", "Benjamin Winde"]
@@ -54,7 +54,7 @@ We chose the intergalactic sci-fi setting because it gave us more creative freed
 
 Our goal was to combine the deduction of classic detective games with the progression of a time loop mechanic. We started by designing the complete train layout and mapping out every story event. After that, we divided the tasks among the team. Some members started designing the characters and props, while others focused on programming. However, some team members also worked in both design and development.
 
-{{<image src="train.jpg" alt="sketch of the layout of the train">}}
+{{<image src="train.jpg" alt="sketch of the layout of the train" caption="first draft of our train layout">}}
 
 ## World Design
 
@@ -68,11 +68,11 @@ After finding a few asset packs that we liked, one of us started creating the be
 We started by creating a mood board where everyone contributed ideas and references for the character designs. After finalizing our storyline and deciding how many characters we wanted to include, we divided the work among our three artists and began designing the characters.
 Once the designs were finalized, we created the character models in Blender.
 
-{{<image src="characterdesign.jpg" alt="pictures of the design process of our mentor character">}}
+{{<image src="characterdesign.jpg" alt="pictures of the design process of our mentor character" caption="The process of creating our mentor character">}}
 
 We followed the same process for the custom assets by first deciding which objects we wanted to create ourselves and sketching our ideas. Afterwards, we modeled them in Blender and added them to our project.
 
-{{<image src="assetdesign.jpg" alt="pictures of creation of the assets in photoshop">}}
+{{<image src="assetdesign.jpg" alt="pictures of the train">}}
 
 
 ## Development
@@ -87,15 +87,21 @@ We used Yarn Spinner to implement our dialogue system and branching conversation
 {{<section title="TechStack">}}
 
 ## Projectmanagement
-{{<image src="projectmanagement.jpg" alt="logos of miro and discord">}}
+
+We used Miro for tracking our tasks and creating our design moodboards. On Discord, we had our weekly meetings and coordinated our tasks, solved problems and updated each other on our work between meetings.
+{{<image src="projectmanagement.png" alt="logos of miro and discord">}}
 
 
 ## Design
-{{<image src="design.jpg" alt="logos of canva, procreate, photoshop and blender">}}
+
+We used Procreate and Photoshop for designing our characters and assets and created them in Blender to import into our Unity project.
+{{<image src="design.png" alt="logos of canva, procreate, photoshop and blender">}}
 
 
 ## Development
-{{<image src="development.jpg" alt="logos of unity, csharp, yarnspinner and github">}}
+
+We used Unity for our project and Yarnspinner for the Dialogue. We worked together on our project via Github.
+{{<image src="development.png" alt="logos of unity, csharp, yarnspinner and github">}}
 
 
 {{</section>}}
